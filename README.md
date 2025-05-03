@@ -1,7 +1,7 @@
 # Welcome SharePoint Web Part
 
 ## Summary
-A SharePoint Framework web part that displays a personalized welcome message to site visitors. The web part allows site owners to customize the message appearance and automatically replaces a placeholder with the current user's display name.
+A SharePoint Framework web part that displays a personalised welcome message. The web part allows site owners to customise the message appearance and automatically replaces a placeholder with the current user's display name.
 
 ## Used SharePoint Framework Version
 ![version](https://img.shields.io/badge/version-1.21.0-green.svg)
