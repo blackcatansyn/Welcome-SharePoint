@@ -1,0 +1,35 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "804f774c-ecd5-4747-bd5d-af9c4c41f12b",
+  "alias": "WelcomeWebPart",
+  "componentType": "WebPart",
+
+  // The "*" signifies that the version should be taken from the package.json
+  "version": "*",
+  "manifestVersion": 2,
+
+  // If true, the component can only be installed on sites where Custom Script is allowed.
+  // Components that allow authors to embed arbitrary script code should set this to true.
+  // https://support.office.com/en-us/article/Turn-scripting-capabilities-on-or-off-1f2c515f-5d7e-448a-9fd7-835da935584f
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab", "SharePointFullPage"],
+  "supportsThemeVariants": true,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", // Advanced
+    "group": { "default": "Advanced" },
+    "title": { "default": "Welcome" },
+    "description": { "default": "Displays a personalized welcome message that addresses users by name" },
+    "officeFabricIconFontName": "Welcome",
+    "properties": {
+      "welcomeMessage": "Welcome, {currentUser}!",
+      "fallbackMessage": "Welcome to our site!",
+      "fontSize": 16,
+      "isBold": false,
+      "isItalic": false,
+      "fontColor": "#000000",
+      "backgroundColor": "#ffffff",
+      "backgroundOpacity": 100
+    }
+  }]
+}

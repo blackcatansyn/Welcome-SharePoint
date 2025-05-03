@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "welcome-sharepoint-client-side-solution",
+    "id": "67f14911-5f0d-4597-b1f2-8c1d93a08352",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.21.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "welcome-sharepoint description"
+      },
+      "longDescription": {
+        "default": "welcome-sharepoint description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "welcome-sharepoint Feature",
+        "description": "The feature that activates elements of the welcome-sharepoint solution.",
+        "id": "0e0b4129-563c-470d-aa20-c8cab08e9976",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/welcome-sharepoint.sppkg"
+  }
+}
